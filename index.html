@@ -20,8 +20,8 @@
         .leaderboard { font-size: 0.75rem; text-align: left; margin-top: 15px; color: #00001A; border-top: 1px solid #333; padding-top: 10px; }
         
         /* THE NEW BUTTON */
-        #sync-btn { background: url(https://i.pinimg.com/1200x/2c/6f/48/2c6f48ccb84e36748cc5e63129b64111.jpg); color: #00001A; border: 2px solid #F5278E; padding: 15px; font-size: 1rem; cursor: pointer; box-shadow: 0 0 10px #F5278E; width: 95%; text-transform: uppercase; margin-top: 15px; font-weight: bold; }
-        #sync-btn:active { background: url(https://i.pinimg.com/1200x/2c/6f/48/2c6f48ccb84e36748cc5e63129b64111.jpg); color: #00001A; }
+        #sync-btn { background: #B76E5F; color: #00001A; border: 2px solid #F5278E; padding: 15px; font-size: 1rem; cursor: pointer; box-shadow: 0 0 10px #F5278E; width: 95%; text-transform: uppercase; margin-top: 15px; font-weight: bold; }
+        #sync-btn:active { background: #B76E5F; color: #00001A; }
     </style>
 </head>
 <body>
@@ -100,13 +100,13 @@
 		// 👑 ADMIN BYPASS LOGIN
         if (userName === "lonely") { 
             // Replace link below with your Pinterest Image Address
-            document.body.style.backgroundImage = "url('https://pin.it/aALDRl1iH')"; 
+            document.body.style.backgroundimage = "url('https://i.pinimg.com/736x/ec/eb/39/eceb398642a8b3834316d3e696f8c792.jpg')";
             document.getElementById("setup-screen").innerHTML = `
-                <div class="terminal-box" style="border-color: #f1c40f; color: #f1c40f; box-shadow: 0 0 20px #f1c40f;">
+                <div class="terminal-box" style="border-color: #f1c40f; color: 00001A; box-shadow: 0 0 20px #f1c40f;">
                     <h1>👑 ADMIN ACCESS</h1>
                     <p>Welcome back, Master Prankster.</p>
-                    <p>Vault Status: <span style="color: #00ff00;">READY</span></p>
-                    <button id="sync-btn" onclick="location.reload()" style="border-color: #f1c40f; color: #f1c40f;">LOGOUT</button>
+                    <p>Vault Status: <span style="color: #FF0066;">READY</span></p>
+                    <button id="sync-btn" onclick="location.reload()" style="border-color: #f1c40f; color: 00001A;">LOGOUT</button>
                 </div>`;
             return;
         }
