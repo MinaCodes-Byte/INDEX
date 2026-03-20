@@ -1,0 +1,22 @@
+{
+  "name": "EID Vault",
+  "short_name": "EID Vault",
+  "description": "Eidi prank vault app 😈",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#B76E5F",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "Favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
